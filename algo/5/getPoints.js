@@ -10,9 +10,11 @@ Ci-dessous, tu as un tableau avec tous les résultats de notre équipe,
 qui te permet de tester si ta fonction est bonne. Le résultat doit être 13
 écris la fonction qui nous permet de récupérer le nombre
 de points de notre équipe à la fin du championnat
-*/
+
+Voilà un exemple de tableau que peut recevoir ma fonction getPoints
 
 const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:3'];
+*/
 
 function getPoints(array) {
   // Your code here !

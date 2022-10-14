@@ -1,12 +1,14 @@
 /*
 Voici un tableau de personnes.
 Tu dois écire le code de la fonction findAdult, qui renvoie un
-nouveau tableau avec 2 tableaux à l'intérieur: 
+nouveau tableau avec 2 tableaux à l'intérieur:
 - Le premier avec uniquement les femmes adultes.
 - Le deuxième avec uniquement les hommes adultes.
 (Compte tenu qu'on est adulte à 18 ans)
 Exemple : output [ [femmes adultes], [hommes adultes] ]
-*/
+
+Voilà un exemple de tableau que peut recevoir ma fonction findAdults
+
 const persons = [
   { name: 'Mary Poppins', age: 32, sex: 'female' },
   { name: 'Tony Stark', age: 36, sex: 'male' },
@@ -24,6 +26,8 @@ const persons = [
   { name: 'Millie Bobby Brown', age: 15, sex: 'female' },
   { name: 'Penelope Cruz', age: 47, sex: 'female' },
 ];
+
+*/
 
 function findAdults(arr) {
   // Your code here !
