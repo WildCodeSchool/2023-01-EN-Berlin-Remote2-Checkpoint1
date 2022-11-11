@@ -51,4 +51,6 @@ BONUS (facultatif)
 
 ### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
 
+> 💡  Il faut compter environ 3 heures pour cette partie.
+
 Suis les instructions contenues dans le fichier > [home.html](./site/home.html)
