@@ -37,11 +37,11 @@ npm run test:2 # cette commande lance les tests de l'algo 2 uniquement
 >
 > [algo2.js](./algo/2/isLeapYear.js)
 >
-> [algo3.js](./algo/3/theaterSieges.js)
+> [algo3.js](algo/3/findAdults.js)
 
 BONUS (facultatif)
 
-> [algo4.js](./algo/4/findAdults.js)
+> [algo4.js](algo/4/theaterSieges.js)
 >
 > [algo5.js](./algo/5/getPoints.js)
 >
@@ -51,6 +51,6 @@ BONUS (facultatif)
 
 ### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
 
-> 💡  Il faut compter environ 3 heures pour cette partie.
+> 💡 Il faut compter environ 3 heures pour cette partie.
 
 Suis les instructions contenues dans le fichier > [home.html](./site/home.html)
