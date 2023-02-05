@@ -10,6 +10,7 @@ To test your function, if you "feed" your function the array under this text, yo
 */
 
 const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:3'];
+*/
 
 function getPoints(array) {
   // Your code here !

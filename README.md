@@ -38,11 +38,11 @@ npm run test:2 # this command executes tests for the second algorithm only
 >
 > [algo2.js](./algo/2/isLeapYear.js)
 >
-> [algo3.js](./algo/3/theaterSieges.js)
+> [algo3.js](algo/3/findAdults.js)
 
 If you have more time, you **can** work on these (optionnal):
 
-> [algo4.js](./algo/4/findAdults.js)
+> [algo4.js](algo/4/theaterSieges.js)
 >
 > [algo5.js](./algo/5/getPoints.js)
 >
@@ -50,6 +50,8 @@ If you have more time, you **can** work on these (optionnal):
 
 ## Step 2 - Portfolio
 
-_Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !_
+_Note: please do not use a CSS framework (like Bootstrap or similar), rather, we would like you to use vanilla CSS with its own modern layout solutions such as flex and grid containers._
 
 Follow the instructions in [this file](./site/home.html)
+
+
