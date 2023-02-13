@@ -74,6 +74,15 @@ align-content: flex-start;
 flex-wrap: wrap;
 }}
 
+#modify__button{
+padding: 15px;
+color: white;
+border: 2px solid white;
+border-radius: 15px;
+font-family: "Dosis", sans-serif;
+font-size: large;
+}
+
 .disabled{
   opacity: 0.5;
 }
