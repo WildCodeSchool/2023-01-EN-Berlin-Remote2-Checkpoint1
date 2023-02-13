@@ -1,5 +1,8 @@
 
 const nodeAvatar = document.querySelector(".introduction > img");
 
-// Arrow function syntax
-nodeAvatar.onclick = () => { nodeAvatar.src = "./image/avatar.svg"; };
+// Use addEventListener is the most flexible and modern way of doing things
+nodeAvatar.addEventListener(
+    'click',
+    function() { nodeAvatar.src = "./image/avatar.svg"; }
+);
