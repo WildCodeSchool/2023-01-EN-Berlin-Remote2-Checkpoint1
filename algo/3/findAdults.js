@@ -23,10 +23,13 @@ const persons = [
   { name: 'Penelope Cruz', age: 47, sex: 'female' },
 ];
 
-*/
 
-function findAdults(arr) {
-  // Your code here !
+function findAdults(persons) {
+  let adultFemale = persons.filter(persons => persons.age >=18 && persons.sex === 'female');
+  let adultMale = persons.filter(persons => persons.age >= 18 && persons.sex === 'male'); 
+return [adultFemale, adultMale]; 
 }
+
+findAdults(persons);
 
 module.exports = findAdults;
