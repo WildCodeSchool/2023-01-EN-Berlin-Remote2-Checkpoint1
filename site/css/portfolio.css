@@ -2,7 +2,6 @@
   .navbar {
   display: flexbox;
   justify-content: space-between;
-  border: solid purple;
 }}
 /*We need a title, a little description and 
 an avatar for the first banner.
