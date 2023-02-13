@@ -80,3 +80,29 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.description--btn {
+  background-color: rgb(231, 168, 178);
+  padding: 10px 1rem;
+  color: #ffffff;
+  border: solid #ffffff;
+  cursor: pointer;
+}
+
+.listModify {
+  color: #ffffff;
+  background-color: #750ff7;
+  padding: 10px 1rem;
+  border: none;
+  cursor: pointer;
+}
+.inputText {
+  text-align: center;
+}
+.inputBtn {
+  color: #ffffff;
+  background-color: #750ff7;
+  border: none;
+  padding: 2px 15px;
+  cursor: pointer;
+}

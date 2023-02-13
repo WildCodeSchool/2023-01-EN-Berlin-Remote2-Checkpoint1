@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <title>Checkpoint 1 Portfolio</title>
@@ -20,6 +23,16 @@
     </header>
     <main class="container">
       <!-- First banner with title, description, avatar and image desktop -->
+      <div class="title">
+        <h2>FullStack Develeoper</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate,
+          molestias.
+        </p>
+        <figure>
+          <img class="avatarImg" src="./image/avatar-bis.png" alt="" />
+        </figure>
+      </div>
       <!-- You can use the avatar image on the folder image -->
       <section class="introduction">
         <figure class="desktop">
@@ -31,7 +44,16 @@
       <section class="presentation">
         <div class="description pink-bg">
           <h2>Hi, I’m <span id="name">Matt</span>. Nice to meet you.</h2>
-          <p>Since the beginning of my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
+
+          <p>
+            Since the beginning of my journey as a freelance developer nearly 10
+            years ago, I've done remote work for agencies, consulted for
+            startups, and collaborated with talented people to create digital
+            products for both business and consumer use. I'm quietly confident,
+            naturally curious, and perpetually working on improving my chops one
+            problem at a time.
+          </p>
+          <button class="description--btn">Modify text and color</button>
         </div>
 
         <!-- Bloc of list of skill front end and back end -->
@@ -44,9 +66,15 @@
               <h2 class="pink-text">Languages I speak:</h2>
               <p>MySql</p>
               <h2 class="pink-text">Dev Tools:</h2>
-              <ul>
+              <ul class="inputList">
                 <li>VScode</li>
               </ul>
+              <input
+                class="inputText"
+                type="text"
+                placeholder="add your text"
+              />
+              <button class="inputBtn">add</button>
             </figure>
           </div>
           <div class="column">
@@ -58,10 +86,11 @@
               <p>HTML, CSS</p>
               <h2 class="pink-text">Dev Tools:</h2>
               <ul id="front-dev-tools">
-                <li>You can modify</li>
-                <li>You can modify</li>
-                <li>You can modify</li>
+                <li class="one">You can modify</li>
+                <li class="two">You can modify</li>
+                <li class="three">You can modify</li>
               </ul>
+              <button class="listModify">Modify</button>
             </figure>
           </div>
         </div>
@@ -71,38 +100,65 @@
       <section class="projects">
         <div class="heading">
           <h2>My Recent Work</h2>
-          <p>Here are a few projects I've worked on recently. Want to see more? Email me.</p>
+          <p>
+            Here are a few projects I've worked on recently. Want to see more?
+            Email me.
+          </p>
         </div>
         <div class="contents">
           <div class="box">
-            <img src="https://mattfarley.ca/img/logos/kybercore.svg" alt="logo-entreprise" />
-            <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
-            <a class="disabled" >In development</a>
+            <img
+              src="https://mattfarley.ca/img/logos/kybercore.svg"
+              alt="logo-entreprise"
+            />
+            <p>
+              Next level plug and play chassis systems for custom do-it-yourself
+              lightsaber builds.
+            </p>
+            <a class="disabled">In development</a>
           </div>
           <div class="box">
-            <img src="https://mattfarley.ca/img/logos/basin.svg" alt="logo-entreprise" />
-            <p>A powerful, easy-to-configure form backend for designers and developers. No coding required.</p>
+            <img
+              src="https://mattfarley.ca/img/logos/basin.svg"
+              alt="logo-entreprise"
+            />
+            <p>
+              A powerful, easy-to-configure form backend for designers and
+              developers. No coding required.
+            </p>
             <a href="www.usebasin.com">www.usebasin.com</a>
           </div>
           <div class="box">
-            <img src="https://mattfarley.ca/img/logos/ylbuilders.svg" alt="logo-entreprise" />
-            <p>Beautifully simple websites for independent distributors of Young Living Essential Oils.</p>
+            <img
+              src="https://mattfarley.ca/img/logos/ylbuilders.svg"
+              alt="logo-entreprise"
+            />
+            <p>
+              Beautifully simple websites for independent distributors of Young
+              Living Essential Oils.
+            </p>
             <a href="www.ylbuilders.com">www.ylbuilders.com</a>
           </div>
           <div class="box">
-            <img src="https://mattfarley.ca/img/logos/dovetail.svg" alt="logo-entreprise" />
-            <p>A space and member management solution for coworking communities both big and small.</p>
-            <a class="disabled" >Shutdown in 2017</a>
+            <img
+              src="https://mattfarley.ca/img/logos/dovetail.svg"
+              alt="logo-entreprise"
+            />
+            <p>
+              A space and member management solution for coworking communities
+              both big and small.
+            </p>
+            <a class="disabled">Shutdown in 2017</a>
           </div>
         </div>
-      </section>      
+      </section>
     </main>
     <footer class="presentation">
       <div class="description pink-bg">
-        <img src="image/logo-white.svg" alt='logo-white' />
+        <img src="image/logo-white.svg" alt="logo-white" />
         <h2>Living, learning, & leveling up one day at a time.</h2>
       </div>
     </footer>
     <script src="js/portfolio.js"></script>
-</body>
+  </body>
 </html>
