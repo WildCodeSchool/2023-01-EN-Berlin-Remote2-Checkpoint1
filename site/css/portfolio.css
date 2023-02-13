@@ -30,7 +30,7 @@
 .skills {
   margin-top: -30px;
   border-radius: 12px;
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .column {
@@ -79,4 +79,34 @@ img {
 p {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width:700px){
+  .navbar{
+    justify-content: space-between;
+  }
+  .avatarsec{
+    text-align: center;
+  }
+  .skills{display:flex;
+  flex-direction:row-reverse}
+  .column{
+    flex-direction:row;
+  }
+}
+
+@media screen and (max-width:699px){
+  .navbar{
+    justify-content: space-between;
+  }
+  .introduction{
+    display:none;
+  }
+  .avatarsec{
+    text-align: center;
+  }
+  .skills{
+    display:flex;
+    flex-direction: column-reverse;
+  }
 }
