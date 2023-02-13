@@ -133,3 +133,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+#modify__dev-tools{
+  padding: auto;
+  border-radius: 5px;
+  font-family: "Dosis", sans-serif;
+  font-size: large;
+}
