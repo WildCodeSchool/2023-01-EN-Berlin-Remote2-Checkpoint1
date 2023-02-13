@@ -65,6 +65,18 @@ display: none;
     flex-direction: row-reverse;
   }
 }
+
+@media only screen and (min-width:700px) {
+.contents{
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+flex-wrap: wrap;
+}}
+
+.disabled{
+  opacity: 0.5;
+}
 .column {
   border-left: 1px solid #e6ecf8;
   border-right: 1px solid #e6ecf8;
