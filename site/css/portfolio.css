@@ -24,6 +24,16 @@ screens greater than 700px*/
   justify-content: center;
 }}
 
+@media screen and (max-width: 700px){
+  .introduction {
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+  }
+  .desktop {
+    display: none;
+  }}
+
 
 .pink-bg {
   background-color: pink;
