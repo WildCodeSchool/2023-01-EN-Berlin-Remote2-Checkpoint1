@@ -145,6 +145,9 @@ img {
 .projects a {
   color: #750ff7;
 }
+.disabled {
+  opacity: 20%;
+}
 
 p {
   padding-left: 15px;
