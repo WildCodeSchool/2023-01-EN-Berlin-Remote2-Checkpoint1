@@ -1,8 +1,6 @@
 
 const nodeAvatar = document.querySelector(".introduction > img");
 
-function toggleAvatar() {
+nodeAvatar.onclick = function () {
     nodeAvatar.src = "./image/avatar.svg";
-}
-
-nodeAvatar.onclick = toggleAvatar;
+};
