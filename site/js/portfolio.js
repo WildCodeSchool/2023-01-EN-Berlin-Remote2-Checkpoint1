@@ -11,4 +11,10 @@ function changeName() {
     const nodeName = document.querySelector("#name");
     nodeName.innerText = prompt("enter your name");
     nodeName.style.color = "white";
+
+    // As part of point 3 we are also asked to
+    // change the background color of the ping-bg
+    // class container
+    const nodeContainer = document.querySelector(".pink-bg");
+    nodeContainer.style.backgroundColor = "#750ff7"
 }
