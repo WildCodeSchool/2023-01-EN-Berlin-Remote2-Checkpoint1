@@ -34,6 +34,14 @@ screens greater than 700px*/
     display: none;
   }}
 
+  /*The list of skill must be on the same 
+  line for screens greater than 700px*/
+
+  @media screen and (min-width: 700px){
+  .column {
+    display: inline-flex;
+    align-self: center;
+  }}
 
 .pink-bg {
   background-color: pink;
