@@ -17,22 +17,30 @@ a {
   display: flex;
   margin: 15px 30px;
 }
-
-
+@media only screen and (max-width: 699px) {
+  .desktop{display:none;
+}
+.skills {
+  display:flex;
+  flex-direction: column;
+}
+}
 @media only screen and (min-width: 700px) {
   .navbar {
     display:flex;
     justify-content: space-between;
   }
-
-}
- @media screen and (min-width:700px){
   .introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
- }
+  .skills {
+    display:flex;
+    flex-direction: row;
+  }
+}
+ 
 .logo {
   max-height: 3rem;
 }
