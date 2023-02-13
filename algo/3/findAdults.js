@@ -24,10 +24,8 @@ const persons = [
 ];
 
 function findAdults(arr) {
-  const adults = persons.filter((person) => person.age >= 18);
-  const females = adults.map((sex) => (sex = "female"));
-  const males = adults.map((sex) => (sex = "male"));
-  return adults;
+  const adults = persons.filter((persons) => persons.age >= 18);
+  const females = adults.filter((adults) => adults.sex === "female");
+  const males = adults.filter((adults) => adults.sex === "male");
+  return [females, males];
 }
-
-module.exports = findAdults;
