@@ -1,5 +1,5 @@
 /*  YOU DON'T NEED TO TOUCH THIS FILE */
-@import url('https://fonts.googleapis.com/css?family=Dosis:wght@200&family=Roboto:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dosis:wght@200&family=Roboto:wght@400&display=swap");
 
 body {
   font-family: "Dosis", sans-serif;
@@ -16,6 +16,16 @@ a {
 .navbar {
   display: flex;
   margin: 15px 30px;
+}
+@media screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+.desktop {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
