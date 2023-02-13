@@ -87,6 +87,10 @@ p {
   opacity: 50%;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (min-width: 700px) {
   .navbar {
     justify-content: space-between;
