@@ -99,13 +99,17 @@ p {
   }
 
   .skills {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .skills .column {
     flex-basis: 0;
     flex-grow: 1;
   }
+}
+
+.disabled {
+  opacity: 0.5;
 }
 
 /*
