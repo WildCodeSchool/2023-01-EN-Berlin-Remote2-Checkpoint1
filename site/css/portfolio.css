@@ -9,13 +9,13 @@
 .purple-text {
   color: #750ff7;
 }
-@media only screen and (min-width: 700px) {
+
 .introduction{
 display: flex;
 align-items: center;
 flex-direction: column;
 }
-}
+
 
 @media only screen and (max-width: 699px) {
 .desktop{
@@ -50,10 +50,15 @@ display: none;
 @media only screen and (min-width:700px) {
   .skills{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
-
+@media only screen and (max-width:699px) {
+  .skills{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .column {
   border-left: 1px solid #e6ecf8;
   border-right: 1px solid #e6ecf8;
