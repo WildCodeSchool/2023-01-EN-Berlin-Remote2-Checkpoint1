@@ -80,3 +80,19 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/*
+  CSS declarations that apply to screens
+  wider than or as wide as 700px
+ */
+ @media screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
