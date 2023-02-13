@@ -40,11 +40,13 @@ screens greater than 700px*/
   @media screen and (min-width: 700px){
   .column {
     justify-content: center;
+    align-content: center;
     }
   .skills {
     display: inline-flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-content: center;
   }}
 
   /*
@@ -58,7 +60,7 @@ for screens less than 700px*/
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: center;
+    align-content: center;
   }
 
 }
@@ -101,6 +103,7 @@ greater than 700px*/
   margin-top: -30px;
   border-radius: 12px;
   padding: 0 10%;
+  display: flex;
 }
 
 .column {
@@ -152,4 +155,13 @@ img {
 p {
   padding-left: 15px;
   padding-right: 15px;
+}
+/*Super Bonus: The list of projects must be on the 
+same line for screen sizes greater than 700px*/
+
+@media screen and (min-width: 700px) {
+  .contents {
+    display: inline-flex;
+    
+  }
 }
