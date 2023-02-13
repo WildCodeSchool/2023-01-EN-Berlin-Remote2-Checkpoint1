@@ -83,6 +83,10 @@ p {
   padding-right: 15px;
 }
 
+.disabled {
+  opacity: 0.5;
+}
+
 /*
   CSS declarations that apply to screens
   wider than or as wide as 700px
@@ -106,10 +110,17 @@ p {
     flex-basis: 0;
     flex-grow: 1;
   }
-}
+  
+  .projects .contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.disabled {
-  opacity: 0.5;
+  .projects .contents .box {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
 }
 
 /*
