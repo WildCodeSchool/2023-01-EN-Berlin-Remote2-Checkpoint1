@@ -1,3 +1,11 @@
+@media screen and (min-width: 700px) {
+  .navbar {
+  display: flexbox;
+  justify-content: space-between;
+  border: solid purple;
+}}
+
+
 .pink-bg {
   background-color: pink;
 }
