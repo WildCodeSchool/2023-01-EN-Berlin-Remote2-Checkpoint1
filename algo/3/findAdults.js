@@ -23,10 +23,11 @@ const persons = [
   { name: 'Penelope Cruz', age: 47, sex: 'female' },
 ];
 
-*/
+
 
 function findAdults(arr) {
   // Your code here !
+  
 }
 
 module.exports = findAdults;
