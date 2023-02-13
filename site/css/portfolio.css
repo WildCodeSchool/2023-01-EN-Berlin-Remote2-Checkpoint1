@@ -96,3 +96,13 @@ p {
     align-items: center;
   }
 }
+
+/*
+  CSS declarations that apply to screens
+  less wide than 700px
+ */
+ @media screen and (max-width: 699px) {
+    .desktop {
+      display: none;
+    }
+ }
