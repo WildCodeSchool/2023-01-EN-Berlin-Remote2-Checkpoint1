@@ -1,6 +1,5 @@
 
 const nodeAvatar = document.querySelector(".introduction > img");
 
-nodeAvatar.onclick = function () {
-    nodeAvatar.src = "./image/avatar.svg";
-};
+// Arrow function syntax
+nodeAvatar.onclick = () => { nodeAvatar.src = "./image/avatar.svg"; };
