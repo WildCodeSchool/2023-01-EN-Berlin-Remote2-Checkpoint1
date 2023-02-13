@@ -39,9 +39,28 @@ screens greater than 700px*/
 
   @media screen and (min-width: 700px){
   .column {
+    justify-content: center;
+    }
+  .skills {
     display: inline-flex;
-    align-self: center;
+    justify-content: center;
   }}
+
+  /*
+  The front skill block must be above the 
+  back skill block 
+for screens less than 700px*/
+
+
+@media screen and (max-width: 700px){
+  .skills {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
 
 .pink-bg {
   background-color: pink;
