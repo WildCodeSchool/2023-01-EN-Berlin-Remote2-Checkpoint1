@@ -31,6 +31,7 @@
   margin-top: -30px;
   border-radius: 12px;
   padding: 0 10%;
+  display: flex;
 }
 
 .column {
@@ -81,8 +82,32 @@ p {
   padding-right: 15px;
 }
 
+.disabled {
+  opacity: 50%;
+}
+
 @media screen and (min-width: 700px) {
   .navbar {
     justify-content: space-between;
+  }
+  .introduction {
+    text-align: center;
+  }
+  .skills {
+    flex-direction: row-reverse;
+  }
+  .contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .desktop {
+    display: none;
+  }
+  .skills {
+    flex-direction: column-reverse;
   }
 }
