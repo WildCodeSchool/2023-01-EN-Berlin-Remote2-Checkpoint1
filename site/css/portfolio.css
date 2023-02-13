@@ -4,6 +4,25 @@
   justify-content: space-between;
   border: solid purple;
 }}
+/*We need a title, a little description and 
+an avatar for the first banner.
+
+The banner must be centered in the page for
+screens greater than 700px*/
+/*@media screen and (min-width: 700px) {
+  .introduction {
+  display: flexbox;
+  justify-content: center;
+  border: solid yellowgreen;
+}}*/
+
+@media screen and (min-width: 700px){
+  
+.introduction {
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+}}
 
 
 .pink-bg {
