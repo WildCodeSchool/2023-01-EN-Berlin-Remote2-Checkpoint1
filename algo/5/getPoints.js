@@ -9,11 +9,33 @@ Given an array with our match's results, write a function which will return our 
 To test your function, if you "feed" your function the array under this text, you should get 13 points.
 */
 
-const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:3'];
-*/
+const scores = [
+  "1:0",
+  "2:0",
+  "3:0",
+  "4:4",
+  "2:2",
+  "3:3",
+  "1:4",
+  "2:3",
+  "2:4",
+  "3:3",
+];
+
+let team1Score = 0;
 
 function getPoints(array) {
   // Your code here !
+
+  array.forEach((team) => {
+    const home = team[0];
+    const guess = team[2];
+
+    if (home > guess) team1Score += 3;
+    if (home === guess) team1Score += 1;
+  });
+
+  return team1Score;
 }
 
 module.exports = getPoints;
