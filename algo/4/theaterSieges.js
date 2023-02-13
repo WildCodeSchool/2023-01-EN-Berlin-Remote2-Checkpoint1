@@ -19,6 +19,14 @@ example of the final output:
 
 function theaterSieges() {
   // Your code here !
+  const arr = [];
+  for (let i = 0; i < 26; i++) {
+    arr.push([]);
+    for (let j = 1; j <= 100; j++) {
+      arr[i].push(`${i + 1}-${j}`);
+    }
+  }
+  return arr;
 }
 
 // To print the outcome of your function.
