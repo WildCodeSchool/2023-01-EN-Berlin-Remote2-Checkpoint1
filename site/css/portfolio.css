@@ -80,3 +80,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
