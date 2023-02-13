@@ -18,6 +18,12 @@ a {
   margin: 15px 30px;
 }
 
+@media screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
 .logo {
   max-height: 3rem;
 }
