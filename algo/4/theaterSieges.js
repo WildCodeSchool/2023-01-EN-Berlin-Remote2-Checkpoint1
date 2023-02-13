@@ -19,9 +19,19 @@ example of the final output:
 
 function theaterSieges() {
   // Your code here !
+  let matrix = [];
+
+  for (let row = 0; row < 26; row++) {
+    matrix.push([]);
+
+    for (let column = 1; column < 100 + 1; column++) {
+      matrix[row].push(`${row + 1}-${column}`);
+    }
+  }
+
+  return matrix;
 }
 
-// To print the outcome of your function.
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
