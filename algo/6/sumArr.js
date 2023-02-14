@@ -10,6 +10,11 @@ sumArr( ["2", "7", "3", "8", "2"], ["2", "4", "9"] ) should return ["4", "11", "
 
 function sumArr(arrayA, arrayB) {
   // Your code here !
+  let array1 = ["1", "2", "3", "4"];
+  let array2 = ["5", "6", "7", "8"];
+  for (var i = 0; i < array1.length; i++) {
+    sum.push(array1[i] + array2[i]);
+  }
 }
 
 module.exports = sumArr;

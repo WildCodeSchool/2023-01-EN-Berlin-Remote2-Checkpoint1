@@ -24,8 +24,48 @@ const persons = [
 ];
 
 function findAdults(arr) {
-  const adults = persons.filter((persons) => persons.age >= 18);
-  const females = adults.filter((adults) => adults.sex === "female");
-  const males = adults.filter((adults) => adults.sex === "male");
+  const adults = arr.filter((person) => person.age >= 18);
+  const females = adults.filter((female) => female.sex === "female");
+  const males = adults.filter((male) => male.sex === "male");
   return [females, males];
 }
+module.exports = findAdults;
+
+// function findAdults(arr) {
+//   const females = persons.filter(
+//     (person) => person.age >= 18 && person.sex === "female"
+//   );
+//   const males = persons.filter(
+//     (person) => person.age >= 18 && person.sex === "male"
+//   );
+//   return [females, males];
+// }
+
+// module.exports = findAdults;
+
+// function findAdults(arr) {
+//   // Your code here !
+//   const adultFemales = arr.filter(
+//     (female) => female.sex === "female" && female.age > 18
+//   );
+//   const adultMales = arr.filter((male) => male.sex === "male" && male.age > 18);
+
+//   return [adultFemales, adultMales];
+// }
+
+// module.exports = findAdults;
+
+// function findAdults(arr) {
+//   // Your code here !
+//   let adultFemales = arr.filter(function (person) {
+//     return person.age > 18 && person.sex === "female";
+//   });
+//   let adultMales = arr.filter(function (person) {
+//     return person.age > 18 && person.sex === "male";
+//   });
+//   return [adultFemales, adultMales];
+// }
+
+// // findAdults(persons);
+
+// module.exports = findAdults;
